@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.LinkedList;
 
 public class DaimlerTest {
@@ -19,7 +20,7 @@ public class DaimlerTest {
         // if intervals is empty，return empty
         if(intervals.length==0) return new int[0][0];
         // sort with the left value of interval
-        Arrays.sort(intervals, (x1, x2)->x1[0]-x2[0]);
+        Arrays.sort(intervals, Comparator.comparingInt(x -> x[0]));
         LinkedList<int[]> list = new LinkedList<>();
         for (int[] interval : intervals) {
             // if the list of list intervals is empty or if the current
