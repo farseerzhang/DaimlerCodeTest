@@ -28,7 +28,7 @@ Aufgabe
   
 Meine Antwort:
 
-  Die Programmierung selbt hat sich insgesamt halbe Stunde gedauert. Aber die Erstellung vom Projekt, der Test und die Dokumentation hat 1.5 Stunden gedauert.
+  Die Programmierung selbt hat sich halbe Stunde gedauert. Aber die Erstellung vom Projekt, der Test und die Dokumentation haben 1.5 Stunden gedauert.
   
   Time Complexity: O(nlogn)
   Space Complexity: O(n)
